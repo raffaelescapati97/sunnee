@@ -61,8 +61,8 @@ const cliente3 = new Cliente("Maria", "Bianchi", "maria.bianchi@example.com", "B
 const prodotto1 = new Prodotto("Maglietta", 1, "M", "Blu", "In arrivo");
 const prodotto2 = new Prodotto("Costume da bagno", 2, "L", "Nero", "In arrivo");
 const prodotto3 = new Prodotto("Bikini", 3, "S", "Rosso", "In arrivo");
-const processo1 = new ProcessoProduzione("Filatura e tessitura", "La materia prime viene pulita, cardata e filata per creare il filato, che viene lavorato con macchine da maglieria per formare la stoffa, solitamente in tessuto jersey..");
-const processo2 = new ProcessoProduzione("Cucitura", "Assemblaggio tramite macchinari industriali specializzati e utilizzo di filati tecnici ed elastici adatti a sopportare le sollecitazioni dell'acqua.");
+const processo1 = new ProcessoProduzione("Riciclaggio tessuto", "La materia prima riciclata viene pulita, cardata e filata per creare il filato, che viene lavorato con macchine da maglieria per formare la stoffa, solitamente in tessuto jersey.");
+const processo2 = new ProcessoProduzione("Riciclaggio plastica", "Assemblaggio tramite macchinari industriali specializzati e utilizzo di filati tecnici ed elastici, creati dal recupero di plastica in mare, adatti a sopportare le sollecitazioni dell'acqua.");
 console.log("Prodotto 1 prima dell'aggiunta al processo di produzione:", prodotto1);
 console.log("Prodotto 2 prima dell'aggiunta al processo di produzione:", prodotto2);
 console.log("Prodotto 3 prima dell'aggiunta al processo di produzione:", prodotto3);
