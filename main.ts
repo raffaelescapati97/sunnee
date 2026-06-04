@@ -93,9 +93,6 @@ const prodotto3 = new Prodotto("Bikini", 3, "S", "Rosso", "In arrivo");
 const processo1 = new ProcessoProduzione("Filatura e tessitura", "La materia prime viene pulita, cardata e filata per creare il filato, che viene lavorato con macchine da maglieria per formare la stoffa, solitamente in tessuto jersey..");
 const processo2 = new ProcessoProduzione("Cucitura", "Assemblaggio tramite macchinari industriali specializzati e utilizzo di filati tecnici ed elastici adatti a sopportare le sollecitazioni dell'acqua.");
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Il documento è stato caricato e il DOM è pronto.");
-
 console.log("Prodotto 1 prima dell'aggiunta al processo di produzione:", prodotto1);
 console.log("Prodotto 2 prima dell'aggiunta al processo di produzione:", prodotto2);
 console.log("Prodotto 3 prima dell'aggiunta al processo di produzione:", prodotto3);    
@@ -131,4 +128,3 @@ console.log("Processo di produzione 3:", processo2);
 console.log("Cliente 1:", cliente1);
 console.log("Cliente 2:", cliente2);
 console.log("Cliente 3:", cliente3);
-});
